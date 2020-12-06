@@ -1,5 +1,5 @@
 ## yuploader
 
-- [jsdelivr](https://cdn.jsdelivr.net/gh/lhlyu/yuploader@master/)
+- [jsdelivr](https://www.jsdelivr.com/package/gh/lhlyu/yuploader)
 
 - [npm](https://www.npmjs.com/package/yuploader)

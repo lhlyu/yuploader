@@ -1,12 +1,17 @@
 {
     "name": "yuploader",
-    "version": "0.0.1-test.4",
-    "description": "for libaray",
+    "version": "0.0.1-test.5",
+    "description": "for image upload",
     "main": "./src/main.js",
     "repository": "https://github.com/lhlyu/yuploader",
     "author": "lhlyu",
     "license": "MIT",
-    "keywords": [],
+    "keywords": [
+        "upload",
+        "uploader",
+        "yuploader",
+        "lhlyu"
+    ],
     "browserslist": [
         "> 1%",
         "last 2 versions"
