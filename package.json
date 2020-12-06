@@ -1,6 +1,6 @@
 {
     "name": "yuploader",
-    "version": "0.0.1-test.2",
+    "version": "0.0.1-test.4",
     "description": "for libaray",
     "main": "./src/main.js",
     "repository": "https://github.com/lhlyu/yuploader",

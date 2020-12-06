@@ -7,7 +7,7 @@ function sum(a, b) {
     return a + b
 }
 
-sum(1, 2)
+sum(1, 11)
 sum(2, 4)
 sum(3, 4)
 
