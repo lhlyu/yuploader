@@ -4,19 +4,20 @@
 name: yuploader package
 on:
   release:
-  types: [created]
+    types: [created]
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-node@v1
-        with:
-          node-version: '12.x'
-          registry-url: 'https://registry.npmjs.org'
-      - run: yarn
-      - run: yarn build
-      - run: yarn test
-      - run: yarn publish
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_AUTH_TOKEN }}
+    - uses: actions/checkout@v2
+    - uses: actions/setup-node@v1
+      with:
+        node-version: '12.x'
+        registry-url: 'https://registry.npmjs.org'
+
+    - run: yarn
+    - run: yarn build
+    - run: yarn test
+    - run: yarn publish
+      env:
+        NODE_AUTH_TOKEN: ${{ secrets.NPM_AUTH_TOKEN }}
